@@ -1,43 +1,58 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-JOURNAL
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  id: ubcgif-2022-peacock-etal-computers-and-geosciences
+  title: MTH5 - An archive and exchangeable data format for magnetotelluric time series data
+  description: Presented here is a hierarchical data format (MTH5) that is logically formatted to how MT data are collected. O
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-  # doi: DOI
-  # arxiv: ARXIV
+    - name: Jared Peacock
+      email: jpeacock@usgs.gov
+      corresponding: true
+      orcid: 0000-0002-0439-0224
+      affiliation: Energy, and Geophysics Science Center, CA
+     - name: Karl Kappler
+      # email: EMAIL
+      orcid: 0000-0002-1877-1255
+      affiliation: IMDEX Technology USA, LLC, United States of America
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+    - name: Timothy Ronan
+      # email: EMAIL
+      orcid: 0000-0001-8450-9573
+      affiliation: Incorporated Research Institutions for Seismology, United States of America
+    - name: Anna Kelbert
+      email: akelbert@usgs.gov
+      orcid: 0000-0003-4395-398X
+      affiliation: U.S. Geological Survey, Geologic Hazards Science Center, Golden, CO, United States of America
+    - name: Andrew Frassetto 
+      # email: EMAIL
+      orcid: 0000-0002-8818-3731
+      affiliation: Incorporated Research Institutions for Seismology, United States of America
+  doi: 10.1016/j.cageo.2022.105102
+  arxiv: 2204.03218
   # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
+  date: 2022/03/26 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: Computers and Geoscience
+    url: https://www.sciencedirect.com/science/article/pii/S0098300422000632
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    received: 2021/11/12
+    accepted: 2022/03/17
+    published: 2022/03/26
   keywords:
-    # - KEYWORD 1
-    # - KEYWORD 2
-    # - KEYWORD 3
-    # - KEYWORD 4
+    - Magnetotellurics
+    - Time series
+    - HDF5
+    - Open source software
   abbreviations:
-    # CSEM: controlled source electromagnetics
-    # EM: electromagnetics
+    MT: Magnetotellurics 
+    FAIR:  Findability, accessibility, interoperability, and reuse of digital assets
+    NSF: National Science Foundation
+    PIs: Principal investigators 
   thumbnail: thumbnail.png
   numbering:
     headings: true
@@ -45,5 +60,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: 2022-peacock.pdf
       static: true
