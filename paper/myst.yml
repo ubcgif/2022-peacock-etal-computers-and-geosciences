@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: ubcgif-2022-peacock-etal-computers-and-geosciences
+  id: ubcgif-2022-peacock-etal
   title: MTH5 - An archive and exchangeable data format for magnetotelluric time series data
   description: Presented here is a hierarchical data format (MTH5) that is logically formatted to how MT data are collected. O
   authors:
